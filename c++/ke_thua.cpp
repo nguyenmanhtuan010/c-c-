@@ -73,8 +73,8 @@ public:
 	Savings_Account(string name,double balance);
 	Savings_Account(string name,double balance,double interest_rate);
 	double get_interest_rate();
-	int withdraw(vector<Savings_Account> &sav_accounts, double amount)override;
-    void deposit(vector<Savings_Account> &sav_accounts, double amount)override;
+	int withdraw(vector<Savings_Account> &sav_accounts, double amount);
+    void deposit(vector<Savings_Account> &sav_accounts, double amount);
   };
   
 int Savings_Account :: i = 3;
